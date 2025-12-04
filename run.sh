@@ -14,5 +14,5 @@ docker run -it --rm \
     -v /dev/dri:/dev/dri:rw \
     -v $HOME/.config/pulse/cookie:/runtime/PulseCookie \
     -v $XDG_RUNTIME_DIR/pulse/native:/runtime/PulseAudio \
-    mydesk
+    mydesk /session.sh
 
