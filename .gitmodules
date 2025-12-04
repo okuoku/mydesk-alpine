@@ -1,0 +1,6 @@
+[submodule "myskkconfig"]
+	path = myskkconfig
+	url = https://github.com/okuoku/myskkconfig
+[submodule "skkbuild"]
+	path = skkbuild
+	url = https://github.com/okuoku/skkbuild
