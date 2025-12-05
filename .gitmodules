@@ -4,3 +4,6 @@
 [submodule "skkbuild"]
 	path = skkbuild
 	url = https://github.com/okuoku/skkbuild
+[submodule "skk-dict"]
+	path = skk-dict
+	url = https://github.com/skk-dev/dict
