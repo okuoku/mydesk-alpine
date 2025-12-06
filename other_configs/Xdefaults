@@ -1,0 +1,7 @@
+XTerm.vt100.reverseVideo: true
+XTerm.vt100.saveLines: 10000
+XTerm*vt100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+XTerm.vt100.faceName: DejaVu Sans Mono:style=Book:antialias=false
+XTerm*vt100.faceNameDoubleSize: Noto Sans CJK JP,Noto Sans CJK JP Thin:antialias=false
+XTerm*vt100.faceSize: 14
+XTerm*selectToClipboard: true
