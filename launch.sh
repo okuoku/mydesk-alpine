@@ -3,6 +3,7 @@
 docker run -it --rm \
     -u 0:0 \
     -e XDG_RUNTIME_DIR=/runtime \
+    -e XDG_CONFIG_DIRS=/etc:/etc/xdg:/usr/share \
     -e WAYLAND_DISPLAY=wayland-HOST \
     -e WINEPREFIX=/prefix \
     -e HOME=/home \
