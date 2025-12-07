@@ -77,3 +77,9 @@ XKB_DEFAULT_OPTIONS=ctrl:nocaps
 # XKB_DEFAULT_LAYOUT=se,us(intl)
 # XKB_DEFAULT_OPTIONS=grp:alt_shift_toggle
 # XKB_DEFAULT_OPTIONS=grp:shift_caps_toggle,compose:ralt
+
+XMODIFIERS=@im=fcitx
+QT_IM_MODULE=fcitx
+GTK_IM_MODULE=fcitx
+QT_QPA_PLATFORM=wayland
+

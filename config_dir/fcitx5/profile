@@ -4,11 +4,11 @@ Name=Default
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=keyboard-us
+DefaultIM=skk
 
 [Groups/0/Items/0]
 # Name
-Name=keyboard-us
+Name=skk
 # Layout
 Layout=
 

@@ -3,17 +3,20 @@ RUN apk update && apk add \
         strace \
         labwc dbus dbus-x11 \
         font-noto-cjk font-dejavu \
+        font-roboto font-roboto-flex font-roboto-mono \
+        font-roboto font-awesome \
         icu-data-full \
         mesa-utils \
         fcitx5 fcitx5-gtk fcitx5-qt fcitx5-configtool libgee \
-        pavucontrol-qt xterm \
-        libdbusmenu-lxqt libfm-qt liblxqt libqtxdg libsysstat lxqt-about \
-        lxqt-admin lxqt-archiver lxqt-config lxqt-globalkeys \
-        lxqt-notificationd lxqt-openssh-askpass lxqt-panel \
-        lxqt-policykit lxqt-powermanagement lxqt-qtplugin \
-        lxqt-runner lxqt-sudo lxqt-themes \
-        openbox pcmanfm-qt pm-utils qterminal qtermwidget xdg-utils \
+        pavucontrol-qt xterm xdg-utils \
         adwaita-qt oxygen \
-        xscreensaver swaybg wlopm libnotify waybar font-awesome \
+        xscreensaver swaybg wlopm libnotify waybar \
         docker-cli
 
+# LXQt:
+        #libdbusmenu-lxqt libfm-qt liblxqt libqtxdg libsysstat lxqt-about \
+        #lxqt-admin lxqt-archiver lxqt-config lxqt-globalkeys \
+        #lxqt-notificationd lxqt-openssh-askpass lxqt-panel \
+        #lxqt-policykit lxqt-powermanagement lxqt-qtplugin \
+        #lxqt-runner lxqt-sudo lxqt-themes \
+        #openbox pcmanfm-qt pm-utils qterminal qtermwidget xdg-utils \
