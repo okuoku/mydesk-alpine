@@ -4,7 +4,7 @@ export XDG_DATA_DIRS=/opt/skk/share:/usr/local/share:/usr/share
 eval `dbus-launch --auto-syntax`
 
 # DBus clients (Move to labwc autolaunch)
-fcitx5 &
+fcitx5 -d
 
 # Launch compositor
 exec labwc
