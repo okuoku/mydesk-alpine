@@ -6,6 +6,9 @@ file(REMOVE_RECURSE ${root}/mydesk/skk-bin)
 # Replace .Xdefaults
 file(COPY_FILE ${root}/other_configs/Xdefaults ${root}/mydesk/Xdefaults)
 
+# Replase skk-jisyo
+file(COPY_FILE ${root}/skk-dict/SKK-JISYO.L ${root}/mydesk/SKK-JISYO.L)
+
 execute_process(COMMAND
     ${CMAKE_COMMAND} -E copy_directory 
     ${CMAKE_CURRENT_LIST_DIR}/skkbuild/out
