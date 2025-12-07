@@ -14,6 +14,6 @@ RUN apk update && apk add \
         lxqt-runner lxqt-sudo lxqt-themes \
         openbox pcmanfm-qt pm-utils qterminal qtermwidget xdg-utils \
         adwaita-qt oxygen \
-        xscreensaver swaybg \
+        xscreensaver swaybg wlopm libnotify waybar font-awesome \
         docker-cli
 

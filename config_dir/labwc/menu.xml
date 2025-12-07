@@ -50,10 +50,8 @@
 </menu>
 
 <menu id="root-menu">
-  <item label="QTerminal" icon="qterminal"><action name="Execute" command="qterminal" /></item>
+  <item label="Terminal" icon="xterm"><action name="Execute" command="xterm" /></item>
   <item label="Filemanager" icon="pcmanfm-qt" ><action name="Execute" command="pcmanfm-qt" /></item>
-  <item label="Start LXQt Session"  icon="lxqt" ><action name="Execute" command="lxqt-session"/></item>
-
   <separator />
   <item label="LXQt Settings" icon="preferences-desktop" ><action name="Execute" command="lxqt-config" /></item>
   <item label="Reconfigure Labwc" icon="labwc" ><action name="Reconfigure" /></item>
