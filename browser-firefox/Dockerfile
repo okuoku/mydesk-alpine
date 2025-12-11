@@ -7,4 +7,4 @@ RUN update-locale LANG=ja_JP.UTF-8
 COPY repo-signing-key.gpg /etc/apt/keyrings/packages.mozilla.org.asc
 COPY mozilla.sources /etc/apt/sources.list.d/
 COPY prefer-mozilla /etc/apt/preferences.d/mozilla
-RUN apt-get update && apt-get install -y firefox libgles2 libegl-mesa0 libpci3 libegl1
+RUN apt-get update && apt-get install -y firefox libgles2 libegl-mesa0 libpci3 libegl1 fcitx5 fonts-noto-cjk fonts-noto-cjk-extra pulseaudio
